@@ -7,7 +7,7 @@
 
 /* GENERAL */
 section{
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .no-number{
@@ -25,4 +25,33 @@ section{
 .row .green{
     background-color: green;
     border: 1px solid white;
+}
+
+
+/*************
+    BONUS 
+**************/
+.row .big{
+    height: 100px;
+}
+
+.row .small{
+    height: 50px;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+}
+
+.bottom{
+    align-items: end;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    justify-content: space-between;
 }
